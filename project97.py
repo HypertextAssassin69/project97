@@ -1,6 +1,6 @@
 import random
 i = random.randint(1,9)
-print(i)
+#print(i)
 chance = 5
 
 print("you have got ",chance," chances left, use them wisly")
