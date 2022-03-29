@@ -2,7 +2,7 @@ import random
 i = random.randint(1,9)
 #print(i)
 chance = 3
-
+print("**find the number**")
 print("you have got ",chance," chances left, use them wisly")
 userGuess = int(input("Please Enter Ur Guess: "))
 while chance > 1 :
