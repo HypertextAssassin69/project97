@@ -1,7 +1,7 @@
 import random
 i = random.randint(1,9)
 #print(i)
-chance = 5
+chance = 3
 
 print("you have got ",chance," chances left, use them wisly")
 userGuess = int(input("Please Enter Ur Guess: "))
@@ -17,7 +17,7 @@ while chance > 1 :
         userGuess = int(input("Please Enter Another Guess: "))
 if userGuess == i:
     print("WWWWOOOOWWWWW!!!! u guessed the number perfectly. u will be a great hacker someday.")
-    chance = 3   
+    chance = 2  
 
 if  not chance > 1:
     print("you lose!!!!!!! and you won't become any sort of hacker in future.")
