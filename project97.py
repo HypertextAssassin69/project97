@@ -20,4 +20,4 @@ if userGuess == i:
     chance = 2  
 
 if  not chance > 1:
-    print("you lose!!!!!!! and you won't become any sort of hacker in future.")
+    print("you lose!!!!!!! and you won't become any sort of hacker in future. The Number Was ",i)
